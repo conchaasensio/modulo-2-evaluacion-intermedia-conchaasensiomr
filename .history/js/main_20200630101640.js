@@ -17,7 +17,7 @@ function compareNumber(ev) {
   //number.innerHTML = numberValue;
   console.log(numberValue);
   attemps++;
-  if (numberValue > randomNumber && numberValue < 100) {
+  if (numberValue > randomNumber && < 100) {
     clue.innerHTML = 'Demasiado alto';
   } else if (numberValue < randomNumber) {
     clue.innerHTML = 'Demasiado bajo';
