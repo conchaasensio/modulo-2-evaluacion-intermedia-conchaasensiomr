@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+.number-container {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.number-introduce {
+  border-radius: 30px;
+}

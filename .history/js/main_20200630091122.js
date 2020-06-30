@@ -1,16 +1,13 @@
 'use strict';
 
 const number = document.querySelector('.js-number-introduce');
-const button = document.querySelector('.js-submit-button');
+const button = document.querySelector('.js-button-submit');
 
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * 100);
 }
 
 function updateNumber() {
-  let numberValue = number.value;
+  let numberValue = number.Value;
   number.innerHTML = numberValue;
-  console.log(numberValue);
 }
-
-button.addEventListener('click', updateNumber);

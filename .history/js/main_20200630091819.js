@@ -4,8 +4,10 @@ const number = document.querySelector('.js-number-introduce');
 const button = document.querySelector('.js-submit-button');
 
 function getRandomNumber(max) {
-  return Math.ceil(Math.random() * 100);
+  const randomNumber = Math.ceil(Math.random() * 100);
+  return randomNumber;
 }
+console.log(randomNumber);
 
 function updateNumber() {
   let numberValue = number.value;

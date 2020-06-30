@@ -8,9 +8,6 @@ function getRandomNumber(max) {
 }
 
 function updateNumber() {
-  let numberValue = number.value;
+  let numberValue = number.Value;
   number.innerHTML = numberValue;
-  console.log(numberValue);
 }
-
-button.addEventListener('click', updateNumber);

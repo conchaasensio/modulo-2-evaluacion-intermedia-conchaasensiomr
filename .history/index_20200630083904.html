@@ -8,9 +8,10 @@
   </head>
   <body>
     <h1>Adivina el número</h1>
-    <label for="number" class="number-container">Introduce aquí tu número</label>
+    <h2>Introduce aquí tu número</h2>
+    <div class="number-container">
       <input
-        type="text"
+        type="number"
         name="introduceNumber"
         class="number-introduce js-number-introduce"
       />
@@ -22,13 +23,8 @@
         class="submit-button js-submit-button"
       />
     </div>
-    <input
-      type="text"
-      name="clue"
-      placeholder="Pista: Introduce un número y darle a Prueba"
-      class="clue js-clue"
-    />
-    <input type="text" name="attempts" placeholder="Número de intentos: 0" class="attempts js-attempts" />
+    <input type="text" name="clue" class="clue js-clue" />
+    <input type="text" name="attempts" class="attempts js-attempts" />
     <script src="./js/main.js"></script>
   </body>
 </html>

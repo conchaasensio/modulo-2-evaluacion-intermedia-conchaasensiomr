@@ -6,6 +6,7 @@ const button = document.querySelector('.js-submit-button');
 function getRandomNumber(max) {
   return Math.ceil(Math.random() * 100);
 }
+console.log(getRandomNumber());
 
 function updateNumber() {
   let numberValue = number.value;

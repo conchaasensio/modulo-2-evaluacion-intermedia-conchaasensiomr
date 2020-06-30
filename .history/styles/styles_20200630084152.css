@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+.number-container {
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  background-color: grey;
+}
