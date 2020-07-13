@@ -6,28 +6,23 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <title>Juego: Adivinar el número</title>
   </head>
-  <body>
-    <h1>Adivina el número</h1>
-    <label for="number" class="number-container">Introduce aquí tu número</label>
-      <input
-        type="text"
-        name="introduceNumber"
-        class="number-introduce js-number-introduce"
-      />
-    </div>
-    <div class="submit-container">
-      <input
-        type="submit"
-        value="Prueba"
-        class="submit-button js-submit-button"
-      />
-    </div>
-    <div class="clue js-clue">
-      <p>Pista: Introduce un número y darle a Prueba</p>
-    </div>
-    <div class="attemps js-attemps">
-      <p>Número de intentos: 0</p>
-    </div>
+  <body class="page">
+    <header>
+      <h1>Adivina el número</h1>
+    </header>
+    <main>
+      <form action="">
+        <label for="number">Introduce aquí tu número</label>
+        <input type="number" name="number" id="number" class="js-number" />
+        <input type="submit" value="Prueba" class="js-submit" />
+      </form>
+      <div>
+        <p>
+          Pista: <span class="js-clue">escribe el número y dale a Prueba</span>
+        </p>
+        <p>Número de intentos: <span class="js-counter">0</span></p>
+      </div>
+    </main>
     <script src="./js/main.js"></script>
   </body>
 </html>
